@@ -1,11 +1,13 @@
-import React from 'react'
-
-const Header = () => {
+const Header = ({title}) => {
     return (
         <header>
-            <h1>Hola Mundo</h1>
+            <h1>{title}</h1>
         </header>
     )
+}
+
+Header.defaultProps={
+    title: 'hello world',
 }
 
 export default Header
