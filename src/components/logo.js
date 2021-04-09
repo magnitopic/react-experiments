@@ -1,9 +1,11 @@
-const logo = () => {
+import logo from './img/favicon.ico'
+
+const Logo = () => {
     return (
         <div>
-            <h2>Hi</h2>
+            <img src={logo} alt="logo"/>
         </div>
     )
 }
 
-export default logo
+export default Logo
