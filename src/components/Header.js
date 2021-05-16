@@ -1,10 +1,10 @@
-import Logo from "./Logo"
+import Button from './Button'
 
 const Header = ({title}) => {
     return (
-        <header>
+        <header className="header">
             <h1>{title}</h1>
-            <Logo></Logo>
+            <Button color='green' text='Add' />
         </header>
     )
 }
