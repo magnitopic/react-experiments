@@ -3,5 +3,5 @@
 To start the server run:
 
 ```bash
-npm run start 
+npm run dev
 ```
